@@ -31,3 +31,17 @@
 
 ### Make sure that the USB Mic is set as default in pulse audio
 `ffmpeg -f v4l2 -framerate 30 -video_size 640x480 -i /dev/video0 -f pulse -i default -acodec aac -strict -2 -ac 2 output-av-both-working.mkv`
+
+
+## References
+https://bkjaya.wordpress.com/2019/06/15/how-to-use-motion-linux-4-2-2-1-to-create-a-cctv-system-on-ubuntu-18-10-64-bit-with-a-web-cam-and-hikvision-ip-cam/
+
+https://motion-project.github.io/motion_config.html
+
+https://github.com/DeadEnded/MotionEyeAudio
+
+https://stackoverflow.com/questions/39186259/how-to-get-mp4-videos-from-motion-on-a-raspberry-pi
+
+https://bbs.archlinux.org/viewtopic.php?id=255336
+
+https://unix.stackexchange.com/questions/602499/why-does-specifying-audio-input-before-webcam-video-input-in-ffmpeg-cause-them-t
